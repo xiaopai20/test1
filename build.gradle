@@ -24,6 +24,11 @@ sourceSets {
 		resources {
 			srcDirs "src/main/data"
 		}
+		test {
+			java {
+				srcDirs = ["src/test/java"]
+			}
+		}
 	}
 }
 
